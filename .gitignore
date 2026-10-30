@@ -1,0 +1,21 @@
+# API keys - never commit
+API_KEY.env
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs and local run noise
+*.log
+
+# Streamlit / editor
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,578 @@
+{
+ "957df91ff73f561c5d6a7c434aa8adb02eb6a49c": {
+  "text": "OK",
+  "tokens_in": 8,
+  "tokens_out": 94,
+  "latency_ms": 2626
+ },
+ "1835192f4ea3e4dcc61ddf8b0ab008b1132034f5": {
+  "text": "Based on the policy document:\n\n* **Days per year:** A confirmed employee gets **12 days** of casual leave per calendar year (accruing at 1 day per month).\n* **Consecutive leave restriction:** Casual leave **cannot be taken for more than 3 consecutive working days at a time** (and cannot be combined with sick leave without prior written HR approval).\n* **Encashability:** **No**, casual leave is not encashable under any circumstance.",
+  "tokens_in": 1231,
+  "tokens_out": 593,
+  "latency_ms": 3918
+ },
+ "07a44a0974be926f8fa12ce529866d964a354ce0": {
+  "text": "Based on the policy:\n\n* **Days per year:** A confirmed employee gets **12 days** of casual leave per calendar year (accruing at 1 day per month).\n* **Consecutive leave restriction:** Casual leave **cannot be taken for more than 3 consecutive working days** at a time (and cannot be combined with sick leave without prior written approval from HR).\n* **Encashability:** **No**, casual leave is not encashable under any circumstance (only Earned Leave is encashable).",
+  "tokens_in": 617,
+  "tokens_out": 596,
+  "latency_ms": 7113
+ },
+ "1959a8c83401c3774bc4265998393609ecd029c4": {
+  "text": "When billed annually, the Professional plan costs **$39.20 per month**. \n\nCompared to monthly billing ($49 per month), annual billing provides a 20% discount, saving $9.80 per month.",
+  "tokens_in": 1107,
+  "tokens_out": 363,
+  "latency_ms": 38220
+ },
+ "2d507d7d3590aabbbedd8721b7e4d448238186d2": {
+  "text": "Based on the documentation provided:\n\n* **Monthly Billing Cost:** $49 per month.\n* **Annual Billing Cost (Monthly Equivalent):** $39.20 per month.\n\n**Comparison:** \nWhen billed annually, the plan receives a **20% discount** relative to the monthly rate, reducing the effective cost from $49 per month to $39.20 per month.",
+  "tokens_in": 546,
+  "tokens_out": 1678,
+  "latency_ms": 10204
+ },
+ "a3df626e0d05f97239a81eb2effcfe848705eccc": {
+  "text": "When billed annually, the Professional plan costs **39.20 dollars per month**. \n\nCompared to monthly billing (**49 dollars per month**), annual billing is **9.80 dollars cheaper per month**, providing a **20 percent discount**.",
+  "tokens_in": 515,
+  "tokens_out": 450,
+  "latency_ms": 4262
+ },
+ "6060ea43d2f2c50248e4ace8b14b1838ea826a18": {
+  "text": "Based on the document:\n\n* **Laptop Warranty Period:** 36 months from the date of original retail purchase (includes on-site service for the first 12 months, followed by carry-in service).\n* **Battery Coverage:** 12 months or 300 charge cycles, whichever occurs first.\n* **What Specifically Voids the Warranty:**\n  * Removal or alteration of the serial number label.\n  * Breaking the bottom panel seal by a person who is not an authorized technician.\n  * Repairs carried out by an unauthorized party.",
+  "tokens_in": 1156,
+  "tokens_out": 674,
+  "latency_ms": 4197
+ },
+ "ea2ede76b38c6cec8b91a7e3767a3fa44f0b5206": {
+  "text": "Based on the provided document, here are the details regarding the warranty:\n\n* **Laptop Warranty Period:** 36 months (limited hardware warranty) from the date of original retail purchase.\n* **Battery Coverage:** 12 months or 300 charge cycles, whichever occurs first.\n* **What Voids the Warranty:** The warranty is specifically voided if:\n  1. The serial number label has been removed or altered.\n  2. The bottom panel seal is broken by anyone other than an authorised technician.\n  3. Repairs were carried out by an unauthorised party.",
+  "tokens_in": 481,
+  "tokens_out": 605,
+  "latency_ms": 3452
+ },
+ "f783a03c5f60a0b654c7bd929aa084d777929495": {
+  "text": "Based on the provided protocol:\n\n* **Standard range:** 250 to 500 milligrams per dose (from a total daily dose of 500 to 1000 milligrams).\n* **Meningitis range:** 1600 to 2000 milligrams daily (capped at the maximum of 3 grams).",
+  "tokens_in": 716,
+  "tokens_out": 74,
+  "latency_ms": 5447
+ },
+ "3a079d86316dcee42bba041743a2addfef9ac36e": {
+  "text": "Based on Section 6 (\"DOSING BANDS FOR COMMON WEIGHTS\") of the protocol:\n\n* **Standard range:** 500 to 1000 mg (or 250 to 500 mg per dose depending on frequency)\n* **Meningitis range (80\u201390 mg/kg):** 1600 to 1800 mg (divided into 3 doses)",
+  "tokens_in": 641,
+  "tokens_out": 91,
+  "latency_ms": 2216
+ },
+ "6f6ce90e8734699bce77d68a9588c6c3d726f747": {
+  "text": "Based on the provided text:\n\n* **Standard Range (25\u201350 mg/kg):** **250 to 500 mg** per single dose (or 125 to 250 mg per dose depending on dosing frequency, as noted in section 6).\n* **Meningitis Range (80\u201390 mg/kg):** **375 to 750 mg** per dose.",
+  "tokens_in": 372,
+  "tokens_out": 94,
+  "latency_ms": 2819
+ },
+ "99b3ba954f04238ebb0cd182072ef0060b73561a": {
+  "text": "Based on the protocol, the single doses of amoxicillin for a 20 kg child are:\n\n* **Standard range:** 250 mg to 500 mg per dose (given twice daily).\n* **Meningitis range:** 533.3 mg to 900 mg per dose if divided into three doses, or 800 mg to 900 mg per dose if divided into two doses (totaling 1,600 mg to 1,800 mg per day).",
+  "tokens_in": 1313,
+  "tokens_out": 114,
+  "latency_ms": 3041
+ },
+ "d6d9640296c1df45e91d9c11fb98c33da90ffb2c": {
+  "text": "Based on the protocol:\n\n* **Standard range:** 250 to 500 mg per dose (500 to 1,000 mg per day divided into two doses).\n* **Meningitis range:** A daily total of 1,600 to 1,800 mg divided into two or three doses (which equals 533.3 to 900 mg per dose, depending on whether it is divided into two or three doses).",
+  "tokens_in": 1181,
+  "tokens_out": 104,
+  "latency_ms": 4370
+ },
+ "bd0298d35e489ebec5a80b07312fba4da7cb6072": {
+  "text": "Based on the protocol, the doses for a child weighing twenty kilograms are:\n\n* **Standard Range:** 250 to 500 milligrams per single dose (500 to 1000 milligrams total per day divided twice daily).\n* **Meningitis Range:** A total daily dose of 1600 to 1800 milligrams (which does not exceed the 3-gram daily ceiling), divided into two or three doses per day. Depending on the regimen, the single dose range is:\n  * **Divided into 2 doses:** 800 to 900 milligrams per single dose.\n  * **Divided into 3 doses:** 533.3 to 600 milligrams per single dose.",
+  "tokens_in": 994,
+  "tokens_out": 162,
+  "latency_ms": 2659
+ },
+ "37a2530d876de6f62f599ab1ddd3f4cc63a499b9": {
+  "text": "Based on the protocol:\n\n* **Standard Range (20 kg child):** **250 to 500 milligrams** per dose (administered twice daily).\n* **Meningitis Range (20 kg child):** **533.33 to 900 milligrams** per dose if divided into three doses, or **800 to 900 milligrams** per dose if divided into two doses (calculated from a total daily dose of 1600 to 1800 milligrams divided into 2 or 3 doses).",
+  "tokens_in": 682,
+  "tokens_out": 119,
+  "latency_ms": 5841
+ },
+ "52b6ac72c46be650b49f6515f6b95d87cb93e448": {
+  "text": "Based on the protocol, the recommended doses for a child weighing twenty kilograms are:\n\n* **Standard range:** 250 to 500 milligrams per dose (given twice daily, for a total daily dose of 500 to 1000 milligrams).\n* **Meningitis range:** A daily dose of 1600 to 1800 milligrams divided into two or three doses (not exceeding 3 grams per day).",
+  "tokens_in": 481,
+  "tokens_out": 96,
+  "latency_ms": 2608
+ },
+ "169abca80eac7f96ff38bb73287326e81e25a7bb": {
+  "text": "Based on the provided protocol, the recommended amoxicillin dose ranges for a 20 kg child are:\n\n* **Standard Range:** **250 to 500 milligrams per dose**, given twice daily (totaling 500 to 1000 mg/day).\n* **Meningitis Range:** **533.33 to 900 milligrams per dose** if divided into two or three daily doses (based on a total daily dose of 1600 to 1800 mg/day; specifically **800 to 900 mg per dose** if divided twice daily, or **533.33 to 600 mg per dose** if divided three times daily).",
+  "tokens_in": 291,
+  "tokens_out": 158,
+  "latency_ms": 1560
+ },
+ "2596684c610abf93ccef5fe1641283ccf08f1982": {
+  "text": "Based on the manual:\n\n* **Storage and holding temperature:** Chilled food requiring temperature control must be held **at or below 5\u00b0C** at all times (with chilled display units specifically set to operate at 3\u00b0C).\n* **Checking and recording frequency:** Refrigerator temperatures must be checked and recorded **twice per shift** (at the start of the morning shift and the start of the evening shift), plus an **additional check at the close of service every day**.",
+  "tokens_in": 1363,
+  "tokens_out": 99,
+  "latency_ms": 2886
+ },
+ "3bc130f228d8340413c931a78dc2685117615dec": {
+  "text": "Based on the manual:\n\n* **Storage and holding temperature:** Chilled ready-to-eat food must be held at or below **5\u00b0C** (with storage maintained at **-18\u00b0C or below** for freezers, and display units set to operate at **3\u00b0C**).\n* **Checking frequency:** Refrigerator temperatures must be checked and recorded **twice per shift** (at the start of the morning shift and start of the evening shift), plus an **additional check at the close of service every day**.",
+  "tokens_in": 1060,
+  "tokens_out": 110,
+  "latency_ms": 5665
+ },
+ "158c603c55af12704bd33f9328adc0bc6b1cfb38": {
+  "text": "Based on the manual:\n\n* **Chilled Food Storage/Holding Temperature:** Ready-to-eat food requiring temperature control must be held at **5 degrees Celsius or below** (refrigerator display units must be set to at least 3 degrees Celsius with alarms configured to trigger at 5 degrees Celsius). \n* **Frequency of Checks/Records:** Refrigerator temperatures must be checked and recorded **twice per shift** (at the start of the shift and at the close of service).",
+  "tokens_in": 845,
+  "tokens_out": 99,
+  "latency_ms": 3185
+ },
+ "8427ba0c838dd6a4875ad78a17fa07804b2fc13a": {
+  "text": "Based on the manual:\n\n* **Chilled food storage and holding temperature:** Chilled food must be stored and held at **5\u00b0C** or below (display units set to 3\u00b0C and configured to trigger alarms at 5\u00b0C).\n* **Checking frequency:** Refrigerator temperatures must be checked and recorded **twice daily** (at morning start and evening close).",
+  "tokens_in": 566,
+  "tokens_out": 78,
+  "latency_ms": 1773
+ },
+ "3d24138cfc9c2b410dec6c5547ecc39b6ee8cb21": {
+  "text": "Based on the provided text:\n\n* **Chilled food temperature:** Stored/configured at **3\u00b0C** (or maintained below **5\u00b0C**).\n* **Refrigerator temperature checks:** Refrigerator temperatures must be checked and recorded **twice daily** (at [start of shift] and [end of shift] / morning and afternoon, indicated by \"at and at\" in Section 2).",
+  "tokens_in": 463,
+  "tokens_out": 83,
+  "latency_ms": 1673
+ },
+ "93bb3f5e75125513ca1ffa7dc11e130c81e7e2f6": {
+  "text": "Based on the provided text:\n\n* **Chilled food temperature:** Must be stored and held between **3 \u00b0C and 5 \u00b0C** (or 5 \u00b0C or below).\n* **Refrigerator temperature checks:** Refrigerator temperatures must be checked and recorded **twice daily** (indicated by \"at and at\").",
+  "tokens_in": 285,
+  "tokens_out": 66,
+  "latency_ms": 1346
+ },
+ "24ab5f2287a586c0c2749c5f4ef9fcff5d12bf70": {
+  "text": "Based on the manual:\n\n* **Chilled Food Storage/Holding Temperature:** Ready-to-eat chilled food requiring temperature control must be held at or below **5 degrees Celsius** (with chilled display units set to operate at **3 degrees Celsius**). Deliveries of chilled goods are rejected if they exceed **8 degrees Celsius**.\n* **Checking and Recording Frequency:** Refrigerator temperatures are checked and recorded **twice per shift** (at the start of the morning shift and at the start of the evening shift), plus **an additional check at the close of service every day**.",
+  "tokens_in": 1215,
+  "tokens_out": 117,
+  "latency_ms": 5043
+ },
+ "507242cc906ca10c9df8e64fe25d3df1420c1474": {
+  "text": "Based on the manual:\n\n* **Storage and holding temperature:** Chilled ready-to-eat food must be held at or below **5\u00b0C** (with chilled display units set to operate at **3\u00b0C**). Deliveries are rejected if chilled goods exceed **8\u00b0C**.\n* **Checking and recording frequency:** Refrigerator temperatures must be checked and recorded **twice per shift** (at the start of the morning shift and at the start of the evening shift), plus an **additional check at the close of service** every day.",
+  "tokens_in": 1021,
+  "tokens_out": 112,
+  "latency_ms": 2541
+ },
+ "2702dfef6515afc47721b6cbde54197b012a6ca3": {
+  "text": "Based on the manual:\n\n* **Storage and Holding Temperature:** Chilled ready-to-eat food must be held at or below **5\u00b0C** (with chilled display units set to operate at **3\u00b0C**). \n* **Temperature Checks:** Refrigerator temperatures must be checked and recorded **twice per shift** (at the start of the morning shift and the start of the evening shift), plus an **additional check at the close of service** every day.",
+  "tokens_in": 800,
+  "tokens_out": 97,
+  "latency_ms": 5254
+ },
+ "963650f920d6d9950413a60c07166a8abc31d933": {
+  "text": "Based on the provided manual:\n\n* **Storage/Holding Temperature:** Chilled ready-to-eat food must be held at or **below 5 degrees Celsius**.\n* **Checking and Recording Frequency:** The provided text **does not state** how often refrigerator temperatures must be checked and recorded (it only specifies that temperature records must be retained for a minimum of ninety days).",
+  "tokens_in": 441,
+  "tokens_out": 76,
+  "latency_ms": 48986
+ },
+ "287bde2a1ed7bb7fb209343c978f2e2673b6aaba": {
+  "text": "Based on the provided text:\n\n* **Storage/Holding Temperature:** Chilled food (ready-to-eat food requiring temperature control) must be held at or **below 5 degrees Celsius**.\n* **Frequency of Checks/Records:** The provided text **does not state** how often refrigerator temperatures must be checked and recorded (the relevant section title appears, but no details are provided).",
+  "tokens_in": 236,
+  "tokens_out": 79,
+  "latency_ms": 1655
+ },
+ "d47c167b16489f794238c4150b48e3ff76ffe5cb": {
+  "text": "Based on the policy wording:\n\n* **Depreciation rate (3 to 4 years old):** Forty percent (40%).\n* **Compulsory excess:** One thousand rupees (\u20b91,000) on every own damage claim.",
+  "tokens_in": 1276,
+  "tokens_out": 51,
+  "latency_ms": 1492
+ },
+ "509af024990925beb4a810ed4131cbe1ef9b4e9d": {
+  "text": "OK",
+  "tokens_in": 8,
+  "tokens_out": 35,
+  "latency_ms": 13536
+ },
+ "7852ee1af89da2f34888f8f36c6deb3285018c09": {
+  "text": "Confirmed employees receive twelve days of casual leave per calendar year. This leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstances.",
+  "tokens_in": 1245,
+  "tokens_out": 1329,
+  "latency_ms": 29309
+ },
+ "0ef832ee1dd9f6d7575cd56263b9ca272853b10b": {
+  "text": "Confirmed employees receive twelve days of casual leave per calendar year, accruing at one day per month. Casual leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 631,
+  "tokens_out": 1271,
+  "latency_ms": 27877
+ },
+ "e916c298dc136241a4a9335e272e839879793b4d": {
+  "text": "When billed annually, the Professional plan costs $39.20 per month. This represents a 20% discount compared to the $49 monthly billing rate.",
+  "tokens_in": 1121,
+  "tokens_out": 914,
+  "latency_ms": 20126
+ },
+ "3b97c458fc81c6ea5a99e37063ec5cd666aae70f": {
+  "text": "When billed annually, the Professional plan costs $39.20 per month. This is $9.80 less than the $49 monthly rate charged when billed monthly, representing a 20% discount.",
+  "tokens_in": 529,
+  "tokens_out": 1120,
+  "latency_ms": 24798
+ },
+ "d6753ebc65cdca19900d2808cded2fdb2897dfea": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. It cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 1264,
+  "tokens_out": 762,
+  "latency_ms": 32281
+ },
+ "5bcfd35b4356dc0b090245aa96bf095302f6cff9": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. Casual leave cannot be taken on consecutive working days for more than three days at a time. It is not encashable under any circumstance.",
+  "tokens_in": 650,
+  "tokens_out": 791,
+  "latency_ms": 27641
+ },
+ "7d9192c780af9272d10426dd886cb232804003f7": {
+  "text": "When billed annually, the Professional plan costs $39.20 per month. This is a 20% discount compared to the monthly billing rate of $49 per month.",
+  "tokens_in": 1140,
+  "tokens_out": 668,
+  "latency_ms": 25980
+ },
+ "ddcb815e493f26fe308df59e3e13f0f1692a922b": {
+  "text": "When billed annually, the Professional plan costs $39.20 per month. This is $9.80 less than the $49 per month cost for monthly billing.",
+  "tokens_in": 548,
+  "tokens_out": 1051,
+  "latency_ms": 29691
+ },
+ "9fe89cd8c26227d6f2df98e933d55c0247fe4564": {
+  "text": "The laptop has a 36-month warranty. The battery is covered for twelve months or 300 charge cycles, whichever occurs first. The warranty is voided if the serial number label is removed or altered, the bottom panel seal is broken by a non-authorized technician, or repairs are carried out by an unauthorized party.",
+  "tokens_in": 1189,
+  "tokens_out": 1456,
+  "latency_ms": 31746
+ },
+ "66b22082652da4824f87b9726915e0fb8fe01cfc": {
+  "text": "not stated in context",
+  "tokens_in": 606,
+  "tokens_out": 2520,
+  "latency_ms": 54262
+ },
+ "692154f1f57f01b84fb07bf1dd2578e96f7eecb3": {
+  "text": "not stated in context",
+  "tokens_in": 579,
+  "tokens_out": 3928,
+  "latency_ms": 84646
+ },
+ "76126488ca1d6c587be91f41d70c180c969402fa": {
+  "text": "The laptop has a thirty-six-month warranty. The battery is covered for twelve months or three hundred charge cycles, whichever occurs first. The warranty is void if the serial number label is removed or altered, the bottom panel seal is broken by a non-authorized technician, or repairs are carried out by an unauthorized party.",
+  "tokens_in": 514,
+  "tokens_out": 2862,
+  "latency_ms": 61839
+ },
+ "7b3edb4ddcd204618f4e35580ee3bf6eb930130d": {
+  "text": "not stated in context",
+  "tokens_in": 585,
+  "tokens_out": 4111,
+  "latency_ms": 87889
+ },
+ "46ed1e6aed09d1a6ffc296b06997e3c713058dfe": {
+  "text": "not stated in context",
+  "tokens_in": 850,
+  "tokens_out": 1390,
+  "latency_ms": 31702
+ },
+ "a1ed61beba6fe6ea9a8860f2bdd795f43bb2fbbe": {
+  "text": "not stated in context",
+  "tokens_in": 611,
+  "tokens_out": 1691,
+  "latency_ms": 36828
+ },
+ "edf07f9709633ceaea3ca1dd18e6473bd8f995cf": {
+  "text": "not stated in context",
+  "tokens_in": 314,
+  "tokens_out": 1236,
+  "latency_ms": 27114
+ },
+ "2b569ba4b374eb64fda2f37d282d86973ea65d1d": {
+  "text": "not stated in context",
+  "tokens_in": 526,
+  "tokens_out": 1725,
+  "latency_ms": 37603
+ },
+ "9aad0ec1420569bcfc928790da8b73321b2d5cbd": {
+  "text": "A confirmed employee gets twelve days of casual leave per calendar year. It cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 1126,
+  "tokens_out": 784,
+  "latency_ms": 17549
+ },
+ "1b43eb956940db4832bfbed327db5e3260ac3e03": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. The restriction is that casual leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 969,
+  "tokens_out": 841,
+  "latency_ms": 39673
+ },
+ "a34c930f724a41788a2e2a2926eac3f447075339": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. The restriction is that casual leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 814,
+  "tokens_out": 846,
+  "latency_ms": 18817
+ },
+ "f2e96b29dede7e782f18df1167ff86d44435de1c": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. Casual leave cannot be taken on consecutive working days for more than three days at a time. It is not encashable under any circumstance.",
+  "tokens_in": 483,
+  "tokens_out": 639,
+  "latency_ms": 14660
+ },
+ "3fe10922bbd3939c075b42cb69ef05c47b2df6bc": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. This leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 648,
+  "tokens_out": 1010,
+  "latency_ms": 22146
+ },
+ "fc0cbfedc465dbabaae27fcd9a46bb4eb468d595": {
+  "text": "not stated in context",
+  "tokens_in": 711,
+  "tokens_out": 3613,
+  "latency_ms": 77854
+ },
+ "d00542398a75c3f0077d311bab934fd76af7a9f6": {
+  "text": "A confirmed employee gets twelve days of casual leave per calendar year, accruing at one day per month. Casual leave cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable under any circumstance.",
+  "tokens_in": 299,
+  "tokens_out": 878,
+  "latency_ms": 19608
+ },
+ "f5eaffa82a8203a4ccad3590c85c7a3734f39222": {
+  "text": "not stated in context",
+  "tokens_in": 678,
+  "tokens_out": 2518,
+  "latency_ms": 54114
+ },
+ "dbdce92f26564769e588edf2e598cc77ca87a428": {
+  "text": "not stated in context",
+  "tokens_in": 582,
+  "tokens_out": 3634,
+  "latency_ms": 78040
+ },
+ "249cfdbd1b42122762b8c9fad18f0a8f60c4c804": {
+  "text": "The Professional plan costs $49 when billed monthly. When billed annually, the monthly cost is $39.20, which is 20% less than the monthly billing rate.",
+  "tokens_in": 788,
+  "tokens_out": 6241,
+  "latency_ms": 133985
+ },
+ "afa4405724d23eb696aeca3f40404e617aa63028": {
+  "text": "not stated in context",
+  "tokens_in": 267,
+  "tokens_out": 2798,
+  "latency_ms": 60337
+ },
+ "1e369b72bac26e4439edb39ba9567b3cb210f558": {
+  "text": "The Professional plan costs $39.20 per month when billed annually. This is a 20% discount compared to the monthly billing rate of $49.00 per month.",
+  "tokens_in": 1012,
+  "tokens_out": 652,
+  "latency_ms": 23661
+ },
+ "ff8427e8ec509e83972613ecfd0a51e836bb00fb": {
+  "text": "The Professional plan costs $39.20 per month when billed annually. This is a twenty percent discount compared to the $49 per month rate for monthly billing.",
+  "tokens_in": 847,
+  "tokens_out": 674,
+  "latency_ms": 24303
+ },
+ "3b498706ed43c21d8bf21da16ddf2b1bc9d10d8d": {
+  "text": "The Professional plan costs $39.20 per month when billed annually. This is a 20% discount compared to the $49 per month cost when billed monthly.",
+  "tokens_in": 700,
+  "tokens_out": 706,
+  "latency_ms": 44089
+ },
+ "797a15caa66efdd56912436e4b97fd762fc7e473": {
+  "text": "When billed annually, the Professional plan costs $39.20 per month. This is lower than the $49 per month cost for monthly billing.",
+  "tokens_in": 508,
+  "tokens_out": 748,
+  "latency_ms": 17083
+ },
+ "415c7b920afcebc225971d4a1ac62883747aaa0f": {
+  "text": "The Professional plan costs $39.20 per month when billed annually. This is a twenty percent discount compared to the $49 monthly rate for monthly billing.",
+  "tokens_in": 384,
+  "tokens_out": 1283,
+  "latency_ms": 27854
+ },
+ "10283ef24368133d43954ca2f6a258b81ddf521f": {
+  "text": "The Professional plan costs 39.20 dollars per month when billed annually. This is a twenty percent discount compared to the 49 dollars per month cost when billed monthly.",
+  "tokens_in": 244,
+  "tokens_out": 1035,
+  "latency_ms": 22995
+ },
+ "d70d58dd18b519dd6e79e43aa9900255ce4a90e5": {
+  "text": "not stated in context",
+  "tokens_in": 512,
+  "tokens_out": 493,
+  "latency_ms": 11296
+ },
+ "a11521e704477084a586aa45f8f95eaf3fc0e1bb": {
+  "text": "A confirmed employee receives twelve days of casual leave per calendar year. It cannot be taken on consecutive working days for more than three days at a time. Casual leave is not encashable; the policy specifies that earned leave is the only category that is encashable.",
+  "tokens_in": 1036,
+  "tokens_out": 1371,
+  "latency_ms": 109400
+ },
+ "9be5c8eabb29023b44fc4983a39a3b90cc93a511": {
+  "text": "The API returns HTTP 409 Conflict (with an error body of type `idempotency_key_conflict`) when an idempotency key is reused with a different request body. A client detects that a response was replayed by checking for the `Idempotency-Replayed: true` header.",
+  "tokens_in": 804,
+  "tokens_out": 908,
+  "latency_ms": 89898
+ },
+ "e1668c0af4fb6fb0506a80e2c9c754f543fbb930": {
+  "text": "The API returns HTTP 409 Conflict when an idempotency key is reused with a different request body. A client detects that a response was replayed by checking for the `Idempotency-Replayed: true` header.",
+  "tokens_in": 496,
+  "tokens_out": 1397,
+  "latency_ms": 112266
+ },
+ "ecc56f0f9400c90efe64882ddc9636d4bc6db242": {
+  "text": "The API returns HTTP 409 Conflict (with an error body of type `idempotency_key_conflict`) when an idempotency key is reused with a different request body. A client detects that a response was replayed by checking for the `Idempotency-Replayed: true` header.",
+  "tokens_in": 641,
+  "tokens_out": 1625,
+  "latency_ms": 89769
+ },
+ "cc8dcfb6ec6a1f188be3c3442c6e8e52a742483a": {
+  "text": "The API returns HTTP 409 Conflict when an idempotency key is reused with a different request body. A client can detect that a response was replayed by checking for the header `Idempotency-Replayed: true`.",
+  "tokens_in": 236,
+  "tokens_out": 559,
+  "latency_ms": 13306
+ },
+ "6325cd081640ce506e79568222153f49c65372a6": {
+  "text": "The API returns HTTP 409 Conflict when an idempotency key is reused with a different request body. A client can detect that a response was replayed by checking for the `Idempotency-Replayed: true` header.",
+  "tokens_in": 372,
+  "tokens_out": 564,
+  "latency_ms": 50833
+ },
+ "0db5f76427be9fc9659e927801e6d300978197dc": {
+  "text": "To be promoted, a student must satisfy these conditions in a single attempt: secure a semester grade point average of 5.0 or above in the semester just completed, pass all courses of the immediately preceding semester, and have no more than two outstanding arrears in total across all earlier semesters at the time of promotion.",
+  "tokens_in": 1042,
+  "tokens_out": 1577,
+  "latency_ms": 34567
+ },
+ "5b9bc4b8c47af2343df8415bf96f5996f1ec9853": {
+  "text": "To be promoted to the next semester, a student must satisfy the conditions of securing a semester grade point average of 5.0 in the semester completed, conditions related to the preceding semester, and conditions regarding outstanding arrears from semesters.",
+  "tokens_in": 616,
+  "tokens_out": 1892,
+  "latency_ms": 41277
+ },
+ "45835dce12d5d25ebe2aba3d3b0d50a03527e167": {
+  "text": "In a single attempt, a student must secure a semester grade point average of 5.0 or above in the semester just completed, pass all courses of the immediately preceding semester, and have no more than two outstanding arrears in total across all earlier semesters at the time of promotion.",
+  "tokens_in": 861,
+  "tokens_out": 2721,
+  "latency_ms": 59417
+ },
+ "2b65d87ea5eaea629d2c43d0a66c8ebf27825755": {
+  "text": "To be promoted to the next semester, a student must secure a semester grade point average of 5.0 and satisfy conditions regarding outstanding arrears semesters.",
+  "tokens_in": 527,
+  "tokens_out": 1955,
+  "latency_ms": 42595
+ },
+ "b5928a1631255d7c0c8b5479e3076265fe8770c4": {
+  "text": "not stated in context",
+  "tokens_in": 452,
+  "tokens_out": 3012,
+  "latency_ms": 65657
+ },
+ "2d616a724d61ece60c76ed6c83b1e8fb97d272fa": {
+  "text": "To be promoted to the next semester, a student must have a semester grade point average of 5.0 and must satisfy arrears conditions. The specific arrears conditions are not stated in the context.",
+  "tokens_in": 257,
+  "tokens_out": 3477,
+  "latency_ms": 74556
+ },
+ "4f187524d7664f6ec5be625085ef66c40d67fc89": {
+  "text": "To be promoted, a student must satisfy these conditions in a single attempt: secure a semester grade point average of 5.0 or above in the semester just completed, pass all courses of the immediately preceding semester, and have no more than two outstanding arrears in total across all earlier semesters at the time of promotion.",
+  "tokens_in": 934,
+  "tokens_out": 1790,
+  "latency_ms": 39651
+ },
+ "a882b7606f68841cb92f4bf6d638e2ca6cb62410": {
+  "text": "To be promoted, a student must satisfy these conditions in a single attempt: secure a semester grade point average of 5.0 or above in the semester just completed, pass all courses of the immediately preceding semester, and have no more than two outstanding arrears in total across all earlier semesters at the time of promotion.",
+  "tokens_in": 628,
+  "tokens_out": 2271,
+  "latency_ms": 52302
+ },
+ "a33bfdee8397b9c5ad247328d5b5aee2518fdee9": {
+  "text": "To be promoted, a student must secure a semester grade point average of 5.0 or above in the semester just completed, pass all courses of the immediately preceding semester, and have no more than two outstanding arrears in total across all earlier semesters. Promotion is withheld if a student accumulates more than four arrears.",
+  "tokens_in": 339,
+  "tokens_out": 1650,
+  "latency_ms": 35954
+ },
+ "f46ae604d5f096c4a39e5e324e3481a165e06b72": {
+  "text": "Passwords must be changed every ninety days. The account lockout threshold is five consecutive failed authentication attempts, which results in an automatic fifteen-minute lockout.",
+  "tokens_in": 831,
+  "tokens_out": 918,
+  "latency_ms": 22981
+ },
+ "f239c0c464b7cc615b63fe6c94af8e1322abe64a": {
+  "text": "Passwords must be changed every ninety days. Five consecutive failed attempts trigger a fifteen-minute lockout. A sixth consecutive failure within the same window extends this to thirty minutes. Ten cumulative failures within twenty-four hours trigger a mandatory lock requiring service desk identity verification, with no automatic unlocking.",
+  "tokens_in": 1067,
+  "tokens_out": 2997,
+  "latency_ms": 64350
+ },
+ "a9224aff07c7d04cd115f7701a3a9b8b7d6b7801": {
+  "text": "The frequency for password changes and the duration of a lockout are not stated. The account lockout threshold is ten cumulative or consecutive authentication attempts.",
+  "tokens_in": 486,
+  "tokens_out": 2900,
+  "latency_ms": 62685
+ },
+ "af722cfe3a19f019b307bda1a7f318e21dc8cb64": {
+  "text": "Passwords must be changed every ninety days. The account lockout threshold is six consecutive authentication attempts or ten cumulative failures. The duration of the lockout is not stated in the context.",
+  "tokens_in": 579,
+  "tokens_out": 2936,
+  "latency_ms": 100696
+ },
+ "7b86dc87a3c4c33bf14fce56beb19659ea34b1e7": {
+  "text": "not stated in context.",
+  "tokens_in": 294,
+  "tokens_out": 1199,
+  "latency_ms": 26375
+ },
+ "cfabe8c354b120f5e9c92a1baee4a8681331c7a3": {
+  "text": "Electronics can be returned within 30 days of delivery, provided they are unopened and in their original packaging. Refunds are issued to the original payment method within 5 business days of receiving the returned item.",
+  "tokens_in": 158,
+  "tokens_out": 660,
+  "latency_ms": 20501
+ },
+ "f2e823bd9e05ffc16f6b34d88eac8751c1962218": {
+  "text": "OK.",
+  "tokens_in": 4,
+  "tokens_out": 27,
+  "latency_ms": 3206
+ },
+ "c463b263228f0e795a2b23325429daa952194eb9": {
+  "text": "Understood. The refund policy allows for returns within a 30-day period.",
+  "tokens_in": 99,
+  "tokens_out": 271,
+  "latency_ms": 7064
+ },
+ "232705e8c99c7288f42d3c07aaf89f66567f076e": {
+  "text": "not stated in context.",
+  "tokens_in": 53,
+  "tokens_out": 369,
+  "latency_ms": 9026
+ },
+ "5d67e2ad57974ff182fd1ae671b3b5a6a3718212": {
+  "text": "5 business days.",
+  "tokens_in": 21,
+  "tokens_out": 124,
+  "latency_ms": 3607
+ },
+ "c7c115de69e06e7bab4e05165156e69580dfc739": {
+  "text": "Electronics must be returned within 30 days of delivery and must be unopened in their original packaging. Refunds are issued to the original payment method within 5 business days of the company receiving the returned item.",
+  "tokens_in": 158,
+  "tokens_out": 41,
+  "latency_ms": 13448
+ },
+ "51e5023bf1e61c475f503a20f586c1382f450d1b": {
+  "text": "Electronics must be returned within 30 days of delivery, provided they are unopened and in original packaging. The provided text does not state how long refunds take.",
+  "tokens_in": 101,
+  "tokens_out": 32,
+  "latency_ms": 1012
+ },
+ "2cb03abfcfb4a3fee5404dcc12c801a3c868a4b0": {
+  "text": "{\"score\": 3, \"reason\": \"The candidate correctly identified the return window but failed to provide the information regarding refund processing time.\"}",
+  "tokens_in": 245,
+  "tokens_out": 29,
+  "latency_ms": 831
+ },
+ "c6f0f6b86b6392ee5e6e0bf7fb168fade41b088c": {
+  "text": "Understood. I am ready to act as your advanced AI-powered customer support assistant. Please provide the first customer support ticket, and I will process it according to your instructions, providing the output strictly in the specified JSON format.",
+  "tokens_in": 920,
+  "tokens_out": 1365,
+  "latency_ms": 38806
+ },
+ "ddf98904b4929c3927d8b3e78fe6acc72ae4b7c4": {
+  "text": "I am ready to act as your advanced AI-powered customer support assistant. I have fully internalized your instructions and understand that my role requires a deep, holistic analysis of every ticket. I will not rely on superficial keyword matching; instead, I will evaluate the intent, the customer's emotional state, the potential impact of the issue, and the overall context to ensure my classifications and responses are accurate and empathetic.\n\nTo confirm my understanding, for every ticket you provide, I will output the following:\n\n1.  **Primary Category:** (Technical Issue, Billing and Payment, Account Management, Product Inquiry, Delivery and Shipping, Refund and Cancellation, General Complaint, or Other).\n2.  **Priority Level:** (Critical, High, Medium, or Low, based on your specific definitions of impact and risk).\n3.  **Sentiment & Emotion:** \n    *   **Sentiment:** (Positive, Neutral, or Negative).\n    *   **Emotion:** (Frustrated, Angry, Confused, Satisfied, or Neutral).\n4.  **Professional Response:** A contextually relevant, polite, and empathetic response tailored to the specific situation.\n\n*Note: Your instructions ended abruptly at \"5. 6.\" If there were additional tasks or specific formatting requirements you intended to include, please provide them. Otherwise, I am standing by and ready for your first customer support ticket.*\n\n**Please provide the first ticket.**",
+  "tokens_in": 421,
+  "tokens_out": 1062,
+  "latency_ms": 24059
+ },
+ "08ee9c410f86609441e096693f4d1f2af1a86c56": {
+  "text": "```json\n{\"score\": 5, \"reason\": \"The candidate answer is an excellent response that correctly identifies the truncated prompt and proactively outlines a structured approach to the requested role.\"}\n```",
+  "tokens_in": 521,
+  "tokens_out": 1227,
+  "latency_ms": 31415
+ }
+}
