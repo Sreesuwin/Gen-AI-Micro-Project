@@ -79,8 +79,17 @@ def _is_quota_error(err: Exception) -> bool:
 def load_env() -> None:
     """Load the API key.
 
-    Accepts either a normal dotenv file (.env / API_KEY.env containing
-    GEMINI_API_KEY=...) or a file holding nothing but the raw key itself.
+    Sources, in priority order:
+
+    1. A normal dotenv file (.env / API_KEY.env containing GEMINI_API_KEY=...)
+       or a file holding nothing but the raw key itself - the local setup;
+    2. Streamlit secrets (``st.secrets["GEMINI_API_KEY"]``), which is how the
+       key is supplied on Streamlit Community Cloud, where no key file ships
+       with the repository;
+    3. GOOGLE_API_KEY as a last resort.
+
+    Never raises: a missing secrets file (the normal case outside Streamlit)
+    is silently ignored.
     """
     for name in (".env", "API_KEY.env"):
         path = ROOT / name
@@ -92,6 +101,20 @@ def load_env() -> None:
             raw = path.read_text(encoding="utf-8", errors="ignore").strip()
             if raw and "=" not in raw.splitlines()[0] and len(raw) >= 30:
                 os.environ["GEMINI_API_KEY"] = raw.splitlines()[0].strip()
+
+    if not os.environ.get("GEMINI_API_KEY"):
+        # Streamlit secrets: .streamlit/secrets.toml locally, the Secrets tab
+        # on Streamlit Community Cloud. Accessing st.secrets outside a running
+        # app (or with no file present) raises - that is fine here.
+        try:
+            import streamlit as st
+
+            secret = st.secrets.get("GEMINI_API_KEY")
+            if secret:
+                os.environ["GEMINI_API_KEY"] = str(secret).strip()
+        except Exception:  # noqa: BLE001 - no secrets file / not in Streamlit
+            pass
+
     if not os.environ.get("GEMINI_API_KEY") and os.environ.get("GOOGLE_API_KEY"):
         os.environ["GEMINI_API_KEY"] = os.environ["GOOGLE_API_KEY"]
 
