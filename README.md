@@ -68,6 +68,40 @@ Environment variables: `GENAI_MODEL` (default `gemma-4-26b-a4b-it`),
 `GENAI_WORKERS` (default 3), `GENAI_TIMEOUT_MS` (default 120000),
 `GENAI_MIN_INTERVAL` (default 4.1), `GENAI_MAX_OUTPUT_TOKENS` (default 2048).
 
+## Deployment (Streamlit Community Cloud)
+
+The dashboard is deployed from this repository:
+<https://github.com/Sreesuwin/Gen-AI-Micro-Project>
+
+1. Go to <https://share.streamlit.io> and click **New app**.
+2. Pick the repository `Sreesuwin/Gen-AI-Micro-Project`, branch `main`,
+   main file path `app.py`.
+3. Deploy. `requirements.txt` is installed automatically, and the committed
+   `results/` folder means the experiment charts and tables render straight away.
+
+### Secrets setup (API key)
+
+The key is **never committed**: `.gitignore` excludes `API_KEY.env`, `.env` and
+`.streamlit/secrets.toml`. On the deployed app, open **Settings → Secrets** and
+paste:
+
+```toml
+GEMINI_API_KEY = "your_key_here"
+```
+
+`src/llm.py` resolves the key in this order, so exactly the same code works
+locally and in the cloud:
+
+1. `API_KEY.env` / `.env` in the project root (local development - this wins)
+2. `st.secrets["GEMINI_API_KEY"]` - the Secrets tab above, or a local
+   `.streamlit/secrets.toml` file
+3. `GOOGLE_API_KEY` as a last resort
+
+The app starts without a key: compression, every offline metric, the stored
+experiment results and all charts run locally. Only **live evaluation** in the
+playground (2-3 real model calls) needs the key; if it is missing, that panel
+shows a warning and the rest of the page is unaffected.
+
 ## Files
 
 ```
@@ -83,6 +117,8 @@ data/dataset.json        13 long-prompt QA items (900-1700 tokens each)
 results/                 cache.json, runs.json, results.csv, summary.json,
                          report.md, *.png
 Project_Implementation_Plan.docx   the plan this implementation follows
+Website_Operation_Guide.docx       how the website runs: logic, formulas,
+                                   every metric and every parameter
 ```
 
 ## Notes and honest limitations
